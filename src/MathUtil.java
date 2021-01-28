@@ -53,7 +53,7 @@ public class MathUtil {
 			ret = (num1)/(num2);
 			break;
 		default :
-			ret = 999;
+			ret = 909;
 			break;
 	   }
 	   return ret;

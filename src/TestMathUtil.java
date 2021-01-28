@@ -63,7 +63,7 @@ public class TestMathUtil{
 	  X3=2;
 	  assertEquals(X3, mathUtil.mathFunc("/",X1,X2));
 	  
-	  X3=999;
+	  X3=909;
 	  assertEquals(X3, mathUtil.mathFunc("M",X1,X2));
 	  
 	  
