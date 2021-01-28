@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="CEI-00655" name="TestMathUtil" skipped="0" tests="6" time="0.129" timestamp="2021-01-28T17:42:30">
+  <properties>
+    <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="15" />
+    <property name="ant.project.name" value="JunitTest" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\lib\junit-4.13.1.jar;C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\lib\hamcrest-2.2.jar;C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\test;C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\src;C:\ant\apache-ant-1.10.9\lib\ant-launcher.jar;C:\ant\apache-ant-1.10.9\lib\ant.jar;C:\ant\apache-ant-1.10.9\lib\ant-junit.jar;C:\ant\apache-ant-1.10.9\lib\ant-junit4.jar" />
+    <property name="testdir" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\test" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="full-compile" value="true" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vm.specification.version" value="15" />
+    <property name="os.name" value="Windows 10" />
+    <property name="srcdir" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\src" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.type.JunitTest" value="file" />
+    <property name="sun.boot.library.path" value="C:\java15\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMathUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports\TEST-TestMathUtil.xml crashfile=C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\junitvmwatcher3121965473062583081.properties propsfile=C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\junit12983109928996757320.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-01-19" />
+    <property name="java.home" value="C:\java15" />
+    <property name="basedir" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="15" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="15.0.2+7-27" />
+    <property name="user.name" value="CEI-00655$" />
+    <property name="ant.file" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\ant\apache-ant-1.10.9\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+    <property name="java.version" value="15.0.2" />
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\ant\apache-ant-1.10.9" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.file.JunitTest" value="C:\Program Files (x86)\Jenkins\workspace\testCoachEclipseProj\build.xml" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="java.library.path" value="C:\java15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\java15/bin;C:\ant\apache-ant-1.10.9/bin;C:\java15/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;c:\java15\bin;c:\ant\apache-ant-1.10.9\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="15.0.2+7-27" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="59.0" />
+    <property name="ant.project.default-target" value="test" />
+  </properties>
+  <testcase classname="TestMathUtil" name="testSumFunc1" time="0.001" />
+  <testcase classname="TestMathUtil" name="testSumFunc2" time="0.0" />
+  <testcase classname="TestMathUtil" name="testMathFunc1" time="0.006" />
+  <testcase classname="TestMathUtil" name="testDiffFunc1" time="0.0" />
+  <testcase classname="TestMathUtil" name="testDiffFunc2" time="0.0" />
+  <testcase classname="TestMathUtil" name="testPrintMessage" time="0.0" />
+  <system-out><![CDATA[Inside testsumFunc1()
+Inside testsumFunc2()
+Inside testMathFunc1()
+IP - 5 IP - 10
+Welcome 2 math world
+IP - 5 IP - 10
+Welcome 2 math world
+IP - 5 IP - 10
+Welcome 2 math world
+IP - 5 IP - 10
+Welcome 2 math world
+IP - 5 IP - 10
+Welcome 2 math world
+Inside testDiffFunc1()
+Inside testDiffFunc2()
+Inside testPrintMessage() of mathworld
+Welcome 2 math world
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

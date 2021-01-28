@@ -1,0 +1,54 @@
+<project name = "JunitTest" default = "test" basedir = ".">
+   <property name = "testdir" location = "test" />
+   <property name = "srcdir" location = "src" />
+   <property name = "full-compile" value = "true" />
+	
+   <path id = "classpath.base"/>
+	
+   <path id = "classpath.test">
+      <pathelement location = "lib/junit-4.13.1.jar" />
+      <pathelement location = "lib/hamcrest-2.2.jar" />
+      <pathelement location = "${testdir}" />
+      <pathelement location = "${srcdir}" />
+      <path refid = "classpath.base" />
+   </path>
+	
+   <target name = "clean" >
+      <delete verbose = "${full-compile}">
+         <fileset dir = "${testdir}" includes = "**/*.class" />
+      </delete>
+   </target>
+	
+   <target name = "compile" depends = "clean">
+      <javac srcdir = "${srcdir}" destdir = "${testdir}" 
+         verbose = "${full-compile}">
+         <classpath refid = "classpath.test"/>
+      </javac>
+   </target>
+	
+   <target name = "test" depends = "compile">
+      <junit>
+         <classpath refid = "classpath.test" />
+         <formatter type = "brief" usefile = "false" />
+         <test name = "TestMessageUtil" />
+		 <test name = "TestMathUtil" />
+		 <test name = "TestHijworld" />
+      </junit>
+   	<junit fork="yes" printsummary="no" haltonfailure="no">
+			<formatter type="xml" />
+			<classpath refid="classpath.test" />
+			<batchtest fork="yes" todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports" >
+			<fileset dir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\src">
+				<include name="**/Test*.*" />
+			</fileset>
+			</batchtest>
+		</junit>
+		<junitreport todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports">
+			<fileset dir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports">
+				<include name="TEST*.xml" />
+			</fileset>
+			<report todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports" />
+	  </junitreport>
+  </target>
+  <echo>Hello end test-html run World - Welcome to Apache Ant!</echo>
+</project>
