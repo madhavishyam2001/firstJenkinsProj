@@ -1,6 +1,8 @@
 import org.junit.Test;
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;
+import java.io.IOException;
+
 
 public class TestMathUtil{
 
@@ -67,5 +69,17 @@ public class TestMathUtil{
 	  assertEquals(X3, mathUtil.mathFunc("M",X1,X2));
 	  
 	  
-   }   
+   }
+
+   @Test
+   public void testReadIPFunc() {
+      System.out.println("Inside testReadIPFunc 1");
+	  try{
+		 mathUtil.readTestIP();
+        } catch (Exception e ) {
+             System.out.println("Catch");
+        } finally {
+			System.out.println("Inside testReadIPFunc 2");
+		}
+   }
 }
