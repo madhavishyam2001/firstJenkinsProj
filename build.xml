@@ -37,17 +37,17 @@
    	<junit fork="yes" printsummary="no" haltonfailure="no">
 			<formatter type="xml" />
 			<classpath refid="classpath.test" />
-			<batchtest fork="yes" todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports" >
-			<fileset dir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\src">
+			<batchtest fork="yes" todir="C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports" >
+			<fileset dir="C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\src">
 				<include name="**/Test*.*" />
 			</fileset>
 			</batchtest>
 		</junit>
-		<junitreport todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports">
-			<fileset dir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports">
+		<junitreport todir="C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports">
+			<fileset dir="C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports">
 				<include name="TEST*.xml" />
 			</fileset>
-			<report todir="C:\PROGRA~2\Jenkins\workspace\TESTCO~1\Reports" />
+			<report todir="C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports" />
 	  </junitreport>
   </target>
   <echo>Hello end test-html run World - Welcome to Apache Ant!</echo>

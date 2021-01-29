@@ -67,7 +67,5 @@ public class TestMathUtil{
 	  assertEquals(X3, mathUtil.mathFunc("M",X1,X2));
 	  
 	  
-   }
-   
-   
+   }   
 }
