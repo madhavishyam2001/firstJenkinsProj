@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="CEI-00655" name="TestMathUtil" skipped="0" tests="7" time="0.147" timestamp="2021-01-30T04:32:13">
+<testsuite errors="0" failures="0" hostname="CEI-00655" name="TestMathUtil" skipped="0" tests="7" time="0.189" timestamp="2021-01-30T04:33:55">
   <properties>
     <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
     <property name="ant.file.type" value="file" />
@@ -21,7 +21,7 @@
     <property name="user.country" value="US" />
     <property name="ant.file.type.JunitTest" value="file" />
     <property name="sun.boot.library.path" value="C:\java15\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMathUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMathUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher8876402246426767997.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit15736198302464305606.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMathUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMathUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher10548765170055434680.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit15892274664200157494.properties" />
     <property name="jdk.debug" value="release" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
@@ -66,13 +66,13 @@
     <property name="java.class.version" value="59.0" />
     <property name="ant.project.default-target" value="test" />
   </properties>
-  <testcase classname="TestMathUtil" name="testReadIPFunc" time="0.006" />
+  <testcase classname="TestMathUtil" name="testReadIPFunc" time="0.011" />
   <testcase classname="TestMathUtil" name="testSumFunc1" time="0.0" />
-  <testcase classname="TestMathUtil" name="testSumFunc2" time="0.0" />
-  <testcase classname="TestMathUtil" name="testMathFunc1" time="0.008" />
+  <testcase classname="TestMathUtil" name="testSumFunc2" time="0.001" />
+  <testcase classname="TestMathUtil" name="testMathFunc1" time="0.009" />
   <testcase classname="TestMathUtil" name="testDiffFunc1" time="0.0" />
   <testcase classname="TestMathUtil" name="testDiffFunc2" time="0.0" />
-  <testcase classname="TestMathUtil" name="testPrintMessage" time="0.0" />
+  <testcase classname="TestMathUtil" name="testPrintMessage" time="0.003" />
   <system-out><![CDATA[Inside testReadIPFunc 1
 A:Apple
 B:Boy
