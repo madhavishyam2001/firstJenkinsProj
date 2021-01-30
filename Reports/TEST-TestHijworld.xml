@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="CEI-00655" name="TestHijworld" skipped="0" tests="2" time="0.14" timestamp="2021-01-30T04:33:54">
+<testsuite errors="0" failures="0" hostname="CEI-00655" name="TestHijworld" skipped="0" tests="2" time="0.123" timestamp="2021-01-30T04:39:54">
   <properties>
     <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
     <property name="ant.file.type" value="file" />
@@ -21,7 +21,7 @@
     <property name="user.country" value="US" />
     <property name="ant.file.type.JunitTest" value="file" />
     <property name="sun.boot.library.path" value="C:\java15\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestHijworld skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestHijworld.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher62181238260338975.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit18376876662140202394.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestHijworld skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestHijworld.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher8085282704478398958.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit13922249786688789637.properties" />
     <property name="jdk.debug" value="release" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
@@ -66,7 +66,7 @@
     <property name="java.class.version" value="59.0" />
     <property name="ant.project.default-target" value="test" />
   </properties>
-  <testcase classname="TestHijworld" name="testWillAlwaysFail" time="0.001" />
+  <testcase classname="TestHijworld" name="testWillAlwaysFail" time="0.004" />
   <testcase classname="TestHijworld" name="testNothing" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
