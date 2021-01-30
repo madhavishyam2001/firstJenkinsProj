@@ -71,7 +71,7 @@ public class MathUtil {
 
    
    public void readTestIP() throws IOException{
-    String filePath = ".\test\testIP.txt";
+    String filePath = ".\\src\\testIP.txt";
     HashMap<String, String> map = new HashMap<String, String>();
 
     String line;

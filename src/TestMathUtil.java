@@ -77,7 +77,7 @@ public class TestMathUtil{
 	  try{
 		 mathUtil.readTestIP();
         } catch (Exception e ) {
-             System.out.println("Catch");
+             System.out.println("Catch" +e);
         } finally {
 			System.out.println("Inside testReadIPFunc 2");
 		}
