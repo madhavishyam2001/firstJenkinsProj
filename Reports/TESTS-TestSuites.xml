@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="CEI-00655" id="0" name="TestHijworld" package="" skipped="0" tests="2" time="0.129" timestamp="2021-01-31T03:44:05">
+  <testsuite errors="0" failures="0" hostname="CEI-00655" id="0" name="TestHijworld" package="" skipped="0" tests="2" time="0.131" timestamp="2021-01-31T03:50:43">
       <properties>
           <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
 
@@ -42,7 +42,7 @@
 
           <property name="sun.boot.library.path" value="C:\java15\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestHijworld skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestHijworld.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher2870587502988957159.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit14884420951920243804.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestHijworld skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestHijworld.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher17002742177561157989.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit12568768998887051873.properties" />
 
           <property name="jdk.debug" value="release" />
 
@@ -132,16 +132,16 @@
 
       </properties>
 
-      <testcase classname="TestHijworld" name="testWillAlwaysFail" time="0.002" />
+      <testcase classname="TestHijworld" name="testWillAlwaysFail" time="0.001" />
 
-      <testcase classname="TestHijworld" name="testNothing" time="0.001" />
+      <testcase classname="TestHijworld" name="testNothing" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CEI-00655" id="1" name="TestMathUtil" package="" skipped="0" tests="7" time="0.145" timestamp="2021-01-31T03:44:05">
+  <testsuite errors="0" failures="0" hostname="CEI-00655" id="1" name="TestMathUtil" package="" skipped="0" tests="7" time="0.14" timestamp="2021-01-31T03:50:44">
       <properties>
           <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
 
@@ -183,7 +183,7 @@
 
           <property name="sun.boot.library.path" value="C:\java15\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMathUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMathUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher14609235118159160325.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit15947596241207478512.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMathUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMathUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher9656703920567759260.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit12930896434393216530.properties" />
 
           <property name="jdk.debug" value="release" />
 
@@ -279,18 +279,19 @@
 
       <testcase classname="TestMathUtil" name="testSumFunc2" time="0.0" />
 
-      <testcase classname="TestMathUtil" name="testMathFunc1" time="0.008" />
+      <testcase classname="TestMathUtil" name="testMathFunc1" time="0.006" />
 
       <testcase classname="TestMathUtil" name="testDiffFunc1" time="0.0" />
 
-      <testcase classname="TestMathUtil" name="testDiffFunc2" time="0.002" />
+      <testcase classname="TestMathUtil" name="testDiffFunc2" time="0.0" />
 
-      <testcase classname="TestMathUtil" name="testPrintMessage" time="0.001" />
+      <testcase classname="TestMathUtil" name="testPrintMessage" time="0.0" />
 
       <system-out><![CDATA[Inside testReadIPFunc 1
 A:Apple
 B:Boy
 C:Cat
+D:Donepudi
 V:Vemuri
 One:1
 Two:2
@@ -318,7 +319,7 @@ Welcome 2 math world
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CEI-00655" id="2" name="TestMessageUtil" package="" skipped="0" tests="2" time="0.128" timestamp="2021-01-31T03:44:06">
+  <testsuite errors="0" failures="0" hostname="CEI-00655" id="2" name="TestMessageUtil" package="" skipped="0" tests="2" time="0.131" timestamp="2021-01-31T03:50:44">
       <properties>
           <property name="ant.library.dir" value="C:\ant\apache-ant-1.10.9\lib" />
 
@@ -360,7 +361,7 @@ Welcome 2 math world
 
           <property name="sun.boot.library.path" value="C:\java15\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMessageUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMessageUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher1835461535526793001.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit2859710159801153139.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMessageUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\Reports\TEST-TestMessageUtil.xml crashfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junitvmwatcher5607569378994512244.properties propsfile=C:\Users\bdonepudi\Documents\GitHub\firstJenkinsProj\junit1858043410721266553.properties" />
 
           <property name="jdk.debug" value="release" />
 
@@ -450,7 +451,7 @@ Welcome 2 math world
 
       </properties>
 
-      <testcase classname="TestMessageUtil" name="testSalutationMessage" time="0.005" />
+      <testcase classname="TestMessageUtil" name="testSalutationMessage" time="0.007" />
 
       <testcase classname="TestMessageUtil" name="testPrintMessage" time="0.0" />
 
